@@ -2,6 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "run-p -sr shopify:dev watch",
+    "build&publish": "run-p -sr build shopify:publish",
+
     "shopify:dev": "shopify theme dev --store=https://e75ec1-13.myshopify.com",
     "shopify:push": " shopify theme push",
     "shopify:publish": " shopify theme publish",
