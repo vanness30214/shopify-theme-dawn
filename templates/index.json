@@ -12,7 +12,7 @@
     "custom_liquid_JnWDXC": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div>曹尼玛1111332211<\/div>",
+        "custom_liquid": "<div class=\"text-red text-[30px]\">曹尼玛1111332211<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
