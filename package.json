@@ -1,9 +1,12 @@
 {
+  "name": "dawn-with-tailwindcss",
+  "version": "0.0.1-alpha.0",
+  "description": "",
   "private": true,
   "scripts": {
     "dev": "run-p -sr shopify:dev watch",
+    "build&preview": "run-p -sr build shopify:push",
     "build&publish": "run-p -sr build shopify:publish",
-
     "shopify:dev": "shopify theme dev --store=https://e75ec1-13.myshopify.com",
     "shopify:push": " shopify theme push",
     "shopify:publish": " shopify theme publish",
